@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Gás - Companhia de Gás XYZ</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Companhia de Gás XYZ" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <div class="container">
+            <h2>Bem-vindo à Companhia de Gás Bicão</h2>
+            <img src="banner.jpg" alt="Imagem de Destaque" class="banner-image">
+            <p>Seu fornecedor de gás confiável e eficiente.</p>
+        </div>
+    </section>
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Com anos de experiência no setor, a Companhia de Gás Bicão se dedica a oferecer o melhor serviço de
+                fornecimento de gás. Nossa missão é garantir segurança e satisfação para todos os nossos clientes.</p>
+        </div>
+    </section>
+    <section id="servicos">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <img src="gas-icon.png" alt="Venda de Gás">
+                    <h3>Venda de Gás Natural</h3>
+                </div>
+                <div class="service-item">
+                    <img src="delivery-icon.png" alt="Entrega Rápida">
+                    <h3>Entrega Rápida e Segura</h3>
+                </div>
+                <div class="service-item">
+                    <img src="support-icon.png" alt="Suporte 24/7">
+                    <h3>Serviço de Atendimento ao Cliente 24/7</h3>
+                </div>
+                <div class="service-item">
+                    <img src="maintenance-icon.png" alt="Manutenção">
+                    <h3>Manutenção e Reparos</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="enviar_email.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Companhia de Gás Bicão. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
